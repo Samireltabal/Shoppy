@@ -1,27 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Shoppy</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-   <!-- fontAwesome CSS-->
-    <link rel="stylesheet" href="css/font-awesome.min.css" >
-    <!-- bootstrap CSS-->
-    <link rel="stylesheet" href="css/bootstrap.min.css" >
-    <!-- Owl Carousel CSS-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" >
-    <link rel="stylesheet" href="css/owl.theme.green.min.css" >
-    <!-- application CSS-->
-    <link rel="stylesheet" href="css/app.css" >
-
-  </head>
-  <body>
-      <!-- navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #fff;">
+     <!-- navigation -->
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #fff;">
             <a class="navbar-brand" href="#">Shoppy <i class='fa fa-code'></i></a>
             <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation"><i class='fa fa-bars'></i></button>
@@ -196,61 +174,3 @@
             </div>
         </nav>
       <!-- end navigation -->
-      <div class="workspace">
-            <div class="owl-carousel owl-theme">            
-            <div class="container-fluid">
-                <div class="row"  style='background:url(./imgs/1.jpg) no-repeat top center; min-height:100vh; background-size:100% 100%;'>
-                    <div class="col-lg-12">
-                            <h3>Hello World 1</h3>
-                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur doloribus, itaque sapiente ut consequatur earum nemo ullam voluptates distinctio pariatur autem nostrum quis recusandae facilis beatae, delectus nobis tempore dolorum? </p>
-                    </div>                    
-                </div>
-            </div>
-            <div class="container-fluid">
-            <div class="row"  style='background:url(./imgs/2.jpg) no-repeat top center; min-height:100vh; background-size:100%;'>
-                <div class="col-lg-12">
-                        <h3>Hello World 2</h3>
-                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur doloribus, itaque sapiente ut consequatur earum nemo ullam voluptates distinctio pariatur autem nostrum quis recusandae facilis beatae, delectus nobis tempore dolorum? </p>
-                </div>            
-                </div>
-                </div>
-                <div class="container-fluid">
-                        <div class="row"  style='background:url(./imgs/1.jpg) no-repeat top center; min-height:100vh; background-size:100%;'>
-                            <div class="col-lg-12">
-                                    <h3>Hello World 3</h3>
-                                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur doloribus, itaque sapiente ut consequatur earum nemo ullam voluptates distinctio pariatur autem nostrum quis recusandae facilis beatae, delectus nobis tempore dolorum? </p>
-                            </div>            
-                            </div>
-                    </div>
-                </div> <!-- end carousel -->
-            </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="./js/jquery-3.2.1.slim.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/owl.carousel.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script type='text/javascript'>
-        $(document).ready(function() {
-        $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
-    });
-    $('.owl-carousel').owlCarousel({
-    loop:false,
-    margin:10,
-    navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
-    </script>
-  </body>
-</html>
