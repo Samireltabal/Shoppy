@@ -1,4 +1,19 @@
- <!-- Optional JavaScript -->
+<!-- footer -->
+
+<footer class='container-fluid'>
+    <div class="row footer">
+        <div class="col-lg-4">Footer 1</div>
+        <div class="col-lg-4">footer 2</div>
+        <div class="col-lg-4">footer 3</div>
+    </div>
+    <div class="row footer_line">
+        <div class="col-lg-12">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut, consequatur eum, nostrum iusto quos voluptatem doloremque cupiditate necessitatibus debitis doloribus numquam quidem dolore sit illum. A quae amet suscipit.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./js/jquery-3.2.1.slim.min.js"></script>
     <script src="./js/popper.min.js"></script>
