@@ -1,6 +1,26 @@
 <!-- footer -->
-
-<footer class='container-fluid'>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+            <h1 class='text-center'>Brands</h1>
+        </div>
+        <div class="col-lg-12">
+        <div class="owl-carousel" id="brands">
+        <div><i class="fa fa-html5 fa-4x"></i></div>
+        <div><i class="fa fa-html5 fa-4x"></i></div>
+        <div><i class="fa fa-html5 fa-4x"></i></div>
+        <div><i class="fa fa-html5 fa-4x"></i></div>
+        <div><i class="fa fa-html5 fa-4x"></i></div>
+        <div><i class="fa fa-html5 fa-4x"></i></div>
+        <div><i class="fa fa-html5 fa-4x"></i></div>
+        <div><i class="fa fa-html5 fa-4x"></i></div>
+        <div><i class="fa fa-html5 fa-4x"></i></div>
+        <div><i class="fa fa-html5 fa-4x"></i></div>
+        </div>
+        </div>
+    </div>
+</div>
+<footer class='container-fluid'> <!-- Black Footer -->
     <div class="row footer">
         <div class="col-lg-4">Footer 1</div>
         <div class="col-lg-4">footer 2</div>
@@ -23,7 +43,7 @@
         $(document).ready(function() {
         $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
     });
-    $('.owl-carousel').owlCarousel({
+    $('#featured').owlCarousel({
     loop:false,
     margin:10,
     navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
@@ -37,6 +57,23 @@
         },
         1000:{
             items:1
+        }
+    }
+})
+$('#brands').owlCarousel({
+    loop:true,
+    margin:10,
+    navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:9
         }
     }
 })

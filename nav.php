@@ -1,5 +1,5 @@
      <!-- navigation -->
-     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #fff;">
+     <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #fff;">
             <a class="navbar-brand" href="#">Shoppy <i class='fa fa-code'></i></a>
             <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation"><i class='fa fa-bars'></i></button>

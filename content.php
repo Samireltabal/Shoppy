@@ -1,5 +1,5 @@
 <div class="workspace">
-            <div class="owl-carousel owl-theme">            
+            <div class="owl-carousel owl-theme" id="featured">            
             <div class="container-fluid">
                 <div class="row">
                 <div class="col-lg-4">
@@ -35,6 +35,6 @@
                     </div>
                 </div> <!-- end carousel -->
             </div>
-            <div class="main_site" style='min-height:90vh;'>
+            <div class="main_site" style='min-height:40vh;'>
 
             </div>
