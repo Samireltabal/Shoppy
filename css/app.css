@@ -126,3 +126,29 @@ footer {
 }
 .footer_line { background: #333 ;}
 #brands { margin:1em 0em; }
+.footer { padding:1em; }
+.footer_head { color:#6BA6B7; margin-top:1em; }
+.footer_social_icons { display: inline; list-style: none; }
+.footer_social_icons li { display: inline ; padding: 0.4em ;}
+.footer_social_icons li a { color:#fff;  opacity:0.4; transition: all 0.2s ease-in-out;}
+.footer_social_icons li:hover a { opacity: 1; color:#6BA6B7; }
+.copyrights { color:#4f4f4f; }
+.footer_link { padding:0 0 .1em 0;  color:#fff; font-weight: normal; }
+.footer_link:hover { color:#fff; border-bottom: 1px dashed #fff; text-decoration: none;}
+.footer_symbol { color:#eb3b5a; }
+.twitter { margin-top:1em; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

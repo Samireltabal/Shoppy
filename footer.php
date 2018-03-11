@@ -22,13 +22,73 @@
 </div>
 <footer class='container-fluid'> <!-- Black Footer -->
     <div class="row footer">
-        <div class="col-lg-4">Footer 1</div>
-        <div class="col-lg-4">footer 2</div>
-        <div class="col-lg-4">footer 3</div>
+        <div class="col-lg-6">
+            <h3 class='footer_head'>Follow Us</h3>
+            <div class='col-lg-12'> 
+                <ul class='footer_social_icons'>
+                    <li><a href="#"><i class='fa fa-facebook-square fa-2x'></i></a></li>
+                    <li><a href="#"><i class='fa fa-twitter-square fa-2x'></i></a></li>
+                    <li><a href="#"><i class='fa fa-instagram fa-2x'></i></a></li>
+                    <li><a href="#"><i class='fa fa-youtube fa-2x'></i></a></li>
+                    <li><a href="#"><i class='fa fa-linkedin fa-2x'></i></a></li>
+                    <li><a href="#"><i class='fa fa-google-plus fa-2x'></i></a></li>
+                    <li><a href="#"><i class='fa fa-dribbble fa-2x'></i></a></li>
+                    <li><a href="#"><i class='fa fa-pinterest fa-2x'></i></a></li>
+
+                </ul>
+            </div>
+            <div class='col-lg-12 twitter'>
+                                      <a class="twitter-timeline"  href="https://twitter.com/SamirEltabbal" data-widget-id="297103761019650049">Tweets by @SamirEltabbal</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class='row'>
+                <div class='col-lg-4'>
+                    <h3 class='footer_head'>Shop</h3>
+                    <ul class='menu_bottom'>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Aliens</a></li>
+                        <li><a href="#">Robots</a></li>
+                        <li><a href="#">Unspecified</a></li>
+
+                    </ul>
+                </div>
+                <div class='col-lg-4'>
+<h3 class='footer_head'>Shop</h3>
+                    <ul class='menu_bottom'>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Aliens</a></li>
+                        <li><a href="#">Robots</a></li>
+                        <li><a href="#">Unspecified</a></li>
+
+                    </ul>     
+                               </div>
+                <div class='col-lg-4'>
+                    <h3 class='footer_head'>Contact US</h3>
+                    <ul class='menu_bottom'>
+                        <li>+201009229237</li>
+                        <li>+201222365552</li>
+                        <li>12 , 6th October St.</li>
+                        <li>al Mehalla elkubra</li>
+                        <li>Egypt</li>
+                        
+
+                    </ul>
+                                    </div>
+            </div>
+        </div>
     </div>
-    <div class="row footer_line">
+    <div class="row">
         <div class="col-lg-12">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut, consequatur eum, nostrum iusto quos voluptatem doloremque cupiditate necessitatibus debitis doloribus numquam quidem dolore sit illum. A quae amet suscipit.</p>
+            <p class='text-center copyrights'>&copy; 2018 , All rights reserved to shoppy 
+                <br> Made With <i class="fa fa-heart footer_symbol"></i> By <a href="#" class='footer_link'>SmStudio</a>
+            </p>
         </div>
     </div>
 </footer>
